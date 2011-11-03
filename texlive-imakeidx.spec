@@ -1,3 +1,9 @@
+# revision 19407
+# category Package
+# catalog-ctan /macros/latex/contrib/imakeidx
+# catalog-date 2010-07-10 09:10:32 +0200
+# catalog-license lppl1.3
+# catalog-version 1.0
 Name:		texlive-imakeidx
 Version:	1.0
 Release:	1
@@ -47,6 +53,7 @@ is used.
 %doc %{_texmfdistdir}/doc/latex/imakeidx/imakeidx.pdf
 #- source
 %doc %{_texmfdistdir}/source/latex/imakeidx/imakeidx.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ is used.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
