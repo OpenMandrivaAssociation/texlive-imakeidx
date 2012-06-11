@@ -1,12 +1,12 @@
-# revision 19407
+# revision 26275
 # category Package
 # catalog-ctan /macros/latex/contrib/imakeidx
-# catalog-date 2010-07-10 09:10:32 +0200
+# catalog-date 2012-05-09 14:48:06 +0200
 # catalog-license lppl1.3
-# catalog-version 1.0
+# catalog-version 1.0a
 Name:		texlive-imakeidx
-Version:	1.0
-Release:	2
+Version:	1.0a
+Release:	1
 Summary:	A package for producing multiple indexes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/imakeidx
