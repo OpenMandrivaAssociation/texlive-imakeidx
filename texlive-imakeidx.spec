@@ -6,7 +6,7 @@
 # catalog-version 1.0a
 Name:		texlive-imakeidx
 Version:	1.0a
-Release:	1
+Release:	2
 Summary:	A package for producing multiple indexes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/imakeidx
