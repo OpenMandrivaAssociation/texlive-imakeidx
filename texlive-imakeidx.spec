@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 1.3a
 Name:		texlive-imakeidx
-Version:	1.3a
-Release:	10
+Version:	1.3e
+Release:	1
 Summary:	A package for producing multiple indexes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/imakeidx
