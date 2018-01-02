@@ -1,9 +1,3 @@
-# revision 31166
-# category Package
-# catalog-ctan /macros/latex/contrib/imakeidx
-# catalog-date 2013-07-11 13:45:25 +0200
-# catalog-license lppl1.3
-# catalog-version 1.3a
 Name:		texlive-imakeidx
 Version:	1.3e
 Release:	1
@@ -39,12 +33,10 @@ used.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/imakeidx/imakeidx.sty
-%doc %{_texmfdistdir}/doc/latex/imakeidx/README
-%doc %{_texmfdistdir}/doc/latex/imakeidx/imakeidx.pdf
-%doc %{_texmfdistdir}/doc/latex/imakeidx/manifest.txt
+%{_texmfdistdir}/tex/latex/imakeidx
+%doc %{_texmfdistdir}/doc/latex/imakeidx
 #- source
-%doc %{_texmfdistdir}/source/latex/imakeidx/imakeidx.dtx
+%doc %{_texmfdistdir}/source/latex/imakeidx
 
 #-----------------------------------------------------------------------
 %prep
