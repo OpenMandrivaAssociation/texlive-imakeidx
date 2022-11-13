@@ -1,13 +1,13 @@
 Name:		texlive-imakeidx
-Version:	1.3e
-Release:	2
+Version:	42287
+Release:	1
 Summary:	A package for producing multiple indexes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/imakeidx
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/imakeidx.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/imakeidx.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/imakeidx.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/imakeidx.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/imakeidx.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/imakeidx.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -24,12 +24,12 @@ shell escape; shell escape is also needed if splitindex is
 used.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -40,7 +40,8 @@ used.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
