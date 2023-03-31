@@ -1,6 +1,6 @@
 Name:		texlive-imakeidx
 Version:	42287
-Release:	1
+Release:	2
 Summary:	A package for producing multiple indexes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/imakeidx
