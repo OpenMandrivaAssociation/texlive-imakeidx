@@ -3,7 +3,7 @@ Version:	42287
 Release:	2
 Summary:	A package for producing multiple indexes
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/imakeidx
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/imakeidx
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/imakeidx.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/imakeidx.doc.r%{version}.tar.xz
